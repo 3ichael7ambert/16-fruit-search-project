@@ -1,0 +1,126 @@
+* {
+  /* box-sizing: border-box; */
+  /* display: flex ; */
+  /* align-items: center ; */
+  /* margin:0 auto; */
+  /* text-align: center; */
+  /* vertical-align:middle; */
+  
+}
+
+:focus {
+ /* TODO */
+ outline: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+ background:linear-gradient(to right, gold, orangered);
+}
+
+
+input {
+  /* font-size: 18px;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; */
+ /* TODO */
+ border: 0px;
+ background-color:rgba(255, 194, 80, 0.938); /*rgba(FFF, FFF, FFF, .3);*/
+ border-radius: 0px;
+ padding: 10px;
+ border-bottom: 3px solid orangered;
+ width:400px;
+}
+input:active {
+  border:0px;
+}
+
+.search-container {
+ /* TODO */
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ /* left:50%; */
+ /* /// */
+ display: flex;
+ align-items: center;
+ /* position: relative; */
+ /* //// */
+
+ 
+}
+
+.search-container input,
+.search-container .suggestions {
+  /* TODO */
+
+}
+.search-container input {
+ /* TODO */
+}
+.search-container .suggestions {
+   /* TODO */
+     position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  /* background-color: #fff;
+  border: 1px solid #ccc; */
+  border-top: none;
+}
+
+ul {
+  /* TODO */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* background-color: #fff; */
+  background-color:rgba(255, 194, 80, 0.938);
+  border: 0px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ul.has-suggestions {
+  /* TODO */
+}
+ul li {
+  /* TODO */
+  padding: 10px;
+  cursor: pointer;
+
+}
+ul li:hover {
+  /* TODO */
+
+  background-color:darkorange;
+}
+
+input {
+   /* TODO */
+}
+
+
+.search-container input strong,
+.search-container .suggestions li strong {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+/* ////////// */
+/* #fruit {
+  background: linear-gradient(to bottom, #ff6600, #ff3300);
+  transition: all 10s ease-in-out;
+}
+#fruit:focus {
+  background: linear-gradient(to bottom, #33ccff, #0066ff);
+} */
